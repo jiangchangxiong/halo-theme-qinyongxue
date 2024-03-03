@@ -2,21 +2,21 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
-  name: halo-theme-chirpy
+  name: halo-theme-qinyongxue
   annotations:
     # Add supports for Halo App Store
     # https://halo.run/store/apps/app-vGuQB
-    "store.halo.run/app-id": "app-vGuQB"
+    "store.halo.run/app-id": "app-vGuQB11"
 spec:
-  displayName: Chirpy
+  displayName: Qinyongxue
   author:
-    name: AirboZH
-    website: https://airbozh.cn
-  description: A minimal, responsive and feature-rich Halo theme for technical writing.
-  logo: https://chirpy-img.netlify.app/commons/avatar.jpg
-  website: https://github.com/AirboZH/halo-theme-chirpy
-  repo: https://github.com/AirboZH/halo-theme-chirpy.git
-  settingName: "halo-theme-chirpy-setting"
-  configMapName: "halo-theme-chirpy-configMap"
-  version: 1.4.1
+    name: JiangChangXiong
+    website: https://youdiandongxi.cn
+  description: 勤勇学主题
+  logo: https://youdiandongxi.cn/upload/logo.png
+  website: https://github.com/jiangchangxiong/halo-theme-qinyongxue
+  repo: https://github.com/jiangchangxiong/halo-theme-qinyongxue.git
+  settingName: "halo-theme-qinyongxue-setting"
+  configMapName: "halo-theme-qinyongxue-configMap"
+  version: 1.0.0
   require: ">=2.0.0"
