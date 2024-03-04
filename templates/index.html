@@ -29,11 +29,11 @@
           <div class="card-body d-flex flex-column">
             <h1 class="card-title my-2 mt-md-0">[[${post.spec.title}]]</h1>
 
-            <div class="card-text content mt-0 mb-2">
+            <div class="card-text flex-grow-1 content mt-0 mb-4">
               <p>[[${post.status.excerpt}]]</p>
             </div>
 
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
+            <div class="post-meta d-flex align-items-end">
               <div
                 class="me-auto"
                 th:with="days=${(new java.util.Date().getTime()-post.spec.publishTime.toEpochMilli())/86400000}"
