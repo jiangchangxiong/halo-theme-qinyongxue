@@ -18,5 +18,5 @@ spec:
   repo: https://github.com/jiangchangxiong/halo-theme-qinyongxue.git
   settingName: "halo-theme-qinyongxue-setting"
   configMapName: "halo-theme-qinyongxue-configMap"
-  version: 1.0.0
+  version: 1.0.1
   require: ">=2.0.0"

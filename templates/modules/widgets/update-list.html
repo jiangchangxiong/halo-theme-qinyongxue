@@ -8,7 +8,7 @@
       class="post-content list-unstyled ps-0 pb-1 ms-1 mt-2"
     >
       <li th:each="post : ${posts.items}" class="text-truncate lh-lg">
-        <a th:href="@{${post.status.permalink}}">[[${post.spec.title}]]</a>
+        <a th:href="@{${post.status.permalink}}" th:title="${post.spec.title}">[[${post.spec.title}]]</a>
       </li>
     </ol>
   </section>
